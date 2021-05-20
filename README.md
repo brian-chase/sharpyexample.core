@@ -1,5 +1,5 @@
 # sharpyexample.core
-example .net core 3.1 web api project
+Example .net core 3.1 web api project with Docker support for IE Intake ticket
 
 # To test:   
 ***URL*/swagger-ui** - this should return swagger-ui which you can use to test all apis  
@@ -7,3 +7,5 @@ example .net core 3.1 web api project
 ***URL*/weatherforecast** - this should return a json of a weather forecast  
 
 Please contact @brian (*Brian Chase*) with any questions!
+
+
