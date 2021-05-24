@@ -9,3 +9,5 @@ Example .net core 3.1 web api project with Docker support for IE Intake ticket
 Please contact @brian (*Brian Chase*) with any questions!
 
 
+Docker build command:
+docker build -t sharpyexample .\SharpyExample.Core
