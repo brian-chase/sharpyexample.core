@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["SharpyExample.Core/SharpyExample.Core.csproj", "SharpyExample.Core/"]
-RUN dotnet restore "SharpyExample.Core/SharpyExample.Core.csproj"
+COPY ["SharpyExample.Core.csproj", "./"]
+RUN dotnet restore "./SharpyExample.Core.csproj"
 COPY . .
-WORKDIR "/src/SharpyExample.Core"
+WORKDIR "/src/."
 RUN dotnet build "SharpyExample.Core.csproj" -c Release -o /app/build
 
 FROM build AS publish
