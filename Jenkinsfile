@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Clean') {
       steps {
-      bat "msbuild.exe ${workspace}\\sharpyexample.core\\SharpyExample.Core.sln" /nologo /nr:false /p:platform=\"x64\" /p:configuration=\"release\" /t:clean"
+      bat "msbuild.exe ${workspace}\\sharpyexample.core\\SharpyExample.Core.sln /nologo /nr:false /p:platform=\"x64\" /p:configuration=\"release\" /t:clean"
       }
     }
     stage('Build') {
