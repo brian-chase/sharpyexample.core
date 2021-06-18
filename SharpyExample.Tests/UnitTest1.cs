@@ -30,5 +30,11 @@ namespace SharpyExample.Tests
             
             Assert.That(off, Is.LessThan(DateTimeOffset.Now));
         }
+
+        [Test]
+        public void Test_Will_Fail()
+        {
+            Assert.That(true, Is.False);
+        }
     }
 }
