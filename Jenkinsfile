@@ -9,7 +9,7 @@ pipeline {
 
     stage('Git Checkout') {
       steps {
-        git(branch: 'master', credentialsId: 'BlueOcean Folder Credentials', url: 'https://github.com/brian-chase/sharpyexample.core.git')
+        git(branch: 'master', credentialsId: 'github', url: 'https://github.com/brian-chase/sharpyexample.core.git')
       }
     }
 
