@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 
 namespace SharpyExample.Tests
@@ -20,6 +21,14 @@ namespace SharpyExample.Tests
         {
             const int i = 1;
             Assert.That(i * 5, Is.EqualTo(5));
+        }
+
+        [Test]
+        public void Test3()
+        {
+            DateTimeOffset off = DateTimeOffset.Now;
+            
+            Assert.That(off, Is.LessThan(DateTimeOffset.Now));
         }
     }
 }
