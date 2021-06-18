@@ -16,7 +16,7 @@ namespace SharpyExample.Core.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Bob", "Jim" };
+            return new string[] { "Bob", "Jim", "Dave" };
         }
 
         // GET api/<PersonController>/5
