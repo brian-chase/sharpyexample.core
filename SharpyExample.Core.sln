@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpyExample.Tests", "Shar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardClassLibrary", "StandardClassLibrary\StandardClassLibrary.csproj", "{8D9A791D-4D09-42E8-A23F-32E026006DE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpyExample.Worker", "SharpyExample.Worker\SharpyExample.Worker.csproj", "{849060E2-8AE4-4E03-8981-173B47B1CEEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{8D9A791D-4D09-42E8-A23F-32E026006DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D9A791D-4D09-42E8-A23F-32E026006DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D9A791D-4D09-42E8-A23F-32E026006DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849060E2-8AE4-4E03-8981-173B47B1CEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849060E2-8AE4-4E03-8981-173B47B1CEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849060E2-8AE4-4E03-8981-173B47B1CEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849060E2-8AE4-4E03-8981-173B47B1CEEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
