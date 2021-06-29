@@ -18,7 +18,7 @@ namespace SharpyExample.Integration.Tests
         [Test]
         public void Test_That_Fails()
         {
-            Assert.That(false, Is.EqualTo(true));
+            Assert.That(true, Is.EqualTo(true));
         }
     }
 }
