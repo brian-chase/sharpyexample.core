@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpyExample.Integration.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpyExample.XUnit.Tests", "SharpyExample.XUnit.Tests\SharpyExample.XUnit.Tests.csproj", "{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7FDA36F9-AF3F-43A4-8C81-1ECDF3472E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37DE16FE-1397-4CAE-89D6-FDAFB00833EA} = {7FDA36F9-AF3F-43A4-8C81-1ECDF3472E47}
+		{6647D632-BE7D-4C26-9C6D-416ABA9F709B} = {7FDA36F9-AF3F-43A4-8C81-1ECDF3472E47}
+		{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310} = {7FDA36F9-AF3F-43A4-8C81-1ECDF3472E47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {514F94E2-8B06-4F1B-9C5D-E4B45803A432}
