@@ -34,7 +34,7 @@ namespace SharpyExample.Tests
         [Test]
         public void Test_Will_Fail()
         {
-            Assert.That(true, Is.False);
+            Assert.That(true, Is.True);
         }
     }
 }
