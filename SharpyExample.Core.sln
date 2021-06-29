@@ -16,7 +16,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardClassLibrary", "Sta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpyExample.Worker", "SharpyExample.Worker\SharpyExample.Worker.csproj", "{849060E2-8AE4-4E03-8981-173B47B1CEEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpyExample.Integration.Tests", "SharpyExample.Integration.Tests\SharpyExample.Integration.Tests.csproj", "{6647D632-BE7D-4C26-9C6D-416ABA9F709B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpyExample.Integration.Tests", "SharpyExample.Integration.Tests\SharpyExample.Integration.Tests.csproj", "{6647D632-BE7D-4C26-9C6D-416ABA9F709B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpyExample.XUnit.Tests", "SharpyExample.XUnit.Tests\SharpyExample.XUnit.Tests.csproj", "{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{6647D632-BE7D-4C26-9C6D-416ABA9F709B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6647D632-BE7D-4C26-9C6D-416ABA9F709B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6647D632-BE7D-4C26-9C6D-416ABA9F709B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F1EEC9-85C5-47AC-AF76-B2A08D2A0310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
