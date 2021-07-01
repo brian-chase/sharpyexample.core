@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7FDA36F9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpyExample.Framework.Web", "SharpyExample.Framework.Web\SharpyExample.Framework.Web.csproj", "{9AF9673C-FD5F-4D16-912B-78EAFCE8D7ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardClassLibraryTests", "StandardClassLibraryTests\StandardClassLibraryTests.csproj", "{EB624B55-E4C0-4097-8540-3C3CE025E8CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{9AF9673C-FD5F-4D16-912B-78EAFCE8D7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AF9673C-FD5F-4D16-912B-78EAFCE8D7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AF9673C-FD5F-4D16-912B-78EAFCE8D7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB624B55-E4C0-4097-8540-3C3CE025E8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB624B55-E4C0-4097-8540-3C3CE025E8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB624B55-E4C0-4097-8540-3C3CE025E8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB624B55-E4C0-4097-8540-3C3CE025E8CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
